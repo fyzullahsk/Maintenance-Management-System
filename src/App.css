@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
-
+link[rel="icon"] {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

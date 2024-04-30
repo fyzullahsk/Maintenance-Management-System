@@ -1,0 +1,15 @@
+.tenant-inputs{
+    margin:50px 10px;
+    display: grid;
+    row-gap: 30px;
+}
+.input-button{
+    color: white !important;
+    background-color: black !important;
+    border: 1px solid black !important;
+}
+.input-button:hover{
+    color: black !important;
+    background-color: white !important;
+    border: 1px solid black !important;
+}

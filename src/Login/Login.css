@@ -1,0 +1,157 @@
+.login-container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.login-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: contrast(250%) saturate(70%) brightness(60%);
+  }
+.login-inputs{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 60px;
+    padding:30px;
+    backdrop-filter:blur(90px);
+    margin: auto;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: calc(100% - 50%);
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    border-radius: 20px;
+}
+  .form {
+      margin: auto;
+  margin-top: 30px;
+  width: 80%;
+  position: relative;
+  height: 60px;
+  overflow: hidden;
+  }
+  
+  .form input, .form select {
+  width: 100%;
+  height: 100%;
+  color: black;
+  padding-top: 20px;
+  border: none;
+  background-color: transparent;
+  /* border-radius: 20px; */
+  }
+  .form select{
+    appearance: none;
+  }
+  .form input:disabled {
+  cursor: not-allowed;
+  }
+  .form label {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid white; */
+  }
+  
+  .form label::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border-bottom: 3px solid black;
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
+  }
+  
+  .content-name {
+  position: absolute;
+  /* bottom: 50%; left: 30%; */
+  bottom: 0;
+  left: 0;
+  padding-bottom: 5px;
+  transition: all 0.3s ease;
+  }
+  
+  .form input:focus , .form select:focus{
+  outline: none;
+  }
+  
+  .form input:not(:placeholder-shown) + .label-name .content-name ,.form select:not(:placeholder-shown) + .label-name .content-name{
+  transform: translateY(-150%);
+  font-size: 14px;
+  left: 0px;
+  color: black;
+  }
+  
+  .form input:focus + .label-name .content-name,
+  .form input:valid + .label-name .content-name,
+  .form select:focus + .label-name .content-name,
+  .form select:valid + .label-name .content-name {
+  transform: translateY(-150%);
+  font-size: 14px;
+  color: black;
+  left: 0px;
+  /* Remove the left: 0px; property */
+  }
+  
+  .form input:focus + .label-name::after,
+  .form input:valid + .label-name::after ,
+  .form select:focus + .label-name::after,
+  .form select:valid + .label-name::after {
+  transform: translateX(0%);
+  }
+  .form-button{
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    column-gap: 20px;
+  }
+  .loginbtn{
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: #f1f1f1;
+  }
+  
+  button>a{
+    text-decoration: none;
+    color: white;
+  }
+  .register-section{
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    font-size: larger;
+  }
+  .register-section>span:first-child{
+    color: red;
+    font-weight: 500;
+  }
+  .register-section>a{
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+  }
+  .title{
+    text-align: center;
+    color: black;
+    font-size: larger;
+    font-weight: 500;
+  }

@@ -1,0 +1,69 @@
+.payments-outer-container {
+    width: 100%;
+    border-radius: 20px;
+    min-height: 10vh;
+    display: grid;
+    margin: auto;
+    margin-top: 5%;
+    row-gap: 20px;
+}
+
+.payments-list {
+    box-shadow: rgba(0, 0, 0, 0.24) 1px 1px 8px;
+    align-items: center;
+    /* background-color: rgba(211,211,211,20%); */
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    border-radius: inherit;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+.payments-details {
+    display: grid;
+    row-gap: 10px;
+}
+
+.payment-details-text {
+    display: flex;
+    column-gap: 10px;
+    font-size: xx-large;
+}
+
+.payment-details-amount {
+    font-size: 6rem;
+}
+
+.previous-months-list {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    border-radius: inherit;
+    font-size: xx-large;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.24) 1px 1px 8px;
+}
+
+.previous-bills-heading {
+    width: 90%;
+    font-size: xx-large;
+}
+
+.no-payments {
+    font-size: xx-large;
+    height: 150px;
+    width: 90%;
+    border-radius: inherit;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    box-shadow: rgba(0, 0, 0, 0.24) 1px 1px 8px;
+    color: black;
+}
+.landlords-payments-outer-container{
+    width: 60%;
+    border-radius: 20px;
+}

@@ -1,0 +1,205 @@
+
+.detail-page-container {
+    /* margin: 0 auto; */
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 15% 70%;
+    font-family: 'calibri';
+    align-items: start;
+    
+  }
+  
+  .detail-heading {
+    text-align: center;
+    /* color: #e72e77; */
+    margin-bottom: 20px;
+  }
+  
+  .service-details {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  
+  .service-info {
+    margin: auto 10px ;
+  }
+  
+  .image-gallery {
+    flex: 1;
+  }
+  
+  .image-grid {
+    margin-top: 20px;
+    display: grid;
+    /* grid-template-columns: repeat(6, 1fr); */
+    gap: 10px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+  }
+  
+  .image-grid img {
+    width: 170px;
+    height: 120px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 28px;
+    color: #e72e77;
+    text-transform: capitalize;
+  }
+  .main-image-container>h3{
+    color: #e72e77;
+  }
+  .service-info>p {
+    font-size: 26px;
+    color: #333;
+  }
+  
+  strong {
+    font-weight: bold;
+    color: #e72e77;
+  }
+  .main-image-container{
+    justify-content: center;
+    text-align: center;
+  }
+  .main-image-container>img{
+    width: 80vw;
+    height: 80vh;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+  }
+
+  .main-container{
+    display: grid;
+    /* grid-template-columns: repeat(2,1fr); */
+    /* align-items: center; */
+    gap: 20px;
+  }
+  .reserve-button{
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #e72e77;
+    border: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+  }
+  .reserve-button>button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: larger;
+    height: inherit;
+  }
+  .buttons-group{
+    display: flex;
+    gap: 20px;
+  }
+  .selected-image {
+    border: 2px solid black;
+    /* transform: scale(1.1); */
+  }
+
+  .detail-outer-container{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+  }
+  .property-details-container{
+    /* margin: auto;
+    position: absolute;
+    top: 35px;
+    right:65px;
+    justify-content: center;
+    text-align: center;
+    background-color: #333;
+    opacity: 0.8;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 20px; */
+    position: absolute;top: 20px;
+    right:65px;
+  margin: auto;
+  text-align: center;
+  background-color: #333;
+  opacity: 0.8;
+  width: 80vw;
+    height: 80vh;
+    border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-size: xx-large;
+  font-weight: 500;
+  }
+  .gridTable {
+    width: 70vw;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 16px;
+    /* border-radius: 30px; */
+    overflow-x: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+.gridTable thead {
+    /* background-color: black;
+    color: #ffffff; */
+    color: black;
+}
+
+.gridTable th, .gridTable td {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+}
+
+/* .gridTable tbody tr {
+    background-color: lightgray;
+}
+
+.gridTable tbody tr:hover {
+    background-color: #f5f5f5;
+} */
+.property-details-page{
+  margin: auto;
+  margin: 30px 0;
+  /* justify-content: center; */
+  display: grid;
+  width: 100%;
+  row-gap: 30px;
+}
+.property-details-page >div{
+  display: flex;
+  font-size: xx-large;
+
+}
+.property-details-page >div>span:last-child{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.back-button{
+  position: sticky;
+  top: 50px;
+  left: 0px;
+  cursor: pointer;
+  font-size: 50px;
+  color: white;
+  background-color: #343a40;
+  opacity: 0.5;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+.back-button:hover{
+  opacity: 1;
+}

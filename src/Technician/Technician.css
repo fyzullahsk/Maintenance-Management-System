@@ -1,0 +1,15 @@
+.table-section-header{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    row-gap: 10px;
+    width: 90vw;
+}
+.technicians-outer-container{
+    display: flex;
+}
+.grid-container{
+    margin: auto;
+}

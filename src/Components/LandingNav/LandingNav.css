@@ -1,0 +1,27 @@
+.Menu-button>svg{
+    fill: black;
+    font-size: 50px;
+    /* padding: 10px; */
+    cursor: pointer;
+    position: fixed;
+}
+
+.active{
+    text-transform: capitalize;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 200px !important;
+    margin: auto;
+    justify-content: center;
+}
+.active>div>div>svg{
+    color: white;
+}
+.menu-item{
+    text-transform: capitalize;
+}
+
+.menu-item>div>div>svg{
+    fill: black;
+}

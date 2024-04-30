@@ -1,0 +1,41 @@
+.register-outer-container::before {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 60px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-image: url("C:\Users\FYZU\Downloads\maintenance-management-system\public\assets\register.png");
+    filter: contrast(250%) saturate(70%) brightness(60%) */
+  }
+  .register-inputs-outer-container{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 60px;
+    padding:30px;
+    backdrop-filter:blur(100px);
+    margin: auto;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: calc(100% - 50%);
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    border-radius: 20px;
+}
+.register-inputs{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+
+  }
+  input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+.error-container{
+  display: grid;
+  margin-top: 20px;
+  color: red;
+  text-align: center;
+  row-gap: 10px;
+}
